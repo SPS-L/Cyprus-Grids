@@ -1,0 +1,70 @@
+# Distribution Network Modeling Framework
+
+## Overview
+This repository contains a comprehensive framework for modeling and analyzing distribution networks. The framework provides tools and templates for creating realistic low voltage (LV) and medium voltage (MV) distribution system models suitable for various research applications.
+
+## Features
+- **Modular Network Architecture**: Flexible framework for building distribution networks
+- **Advanced Cable Modeling**: Multiple cable types with detailed electrical parameters
+- **Extensible Framework**: Easy to expand and modify for specific research needs
+
+## Current Implementation
+The current model includes:
+- **Base Network**: MV/LV transformer with multiple feeders
+- **Feeder Types**: Various configurations demonstrating different network topologies
+- **Load Profiles**: Residential load modeling with asymmetric three-phase representation
+- **Cable Systems**: Standard LV distribution cable specifications
+
+## Usage
+### Basic Usage
+1. Open the `Network.ipynb` notebook
+2. Run all cells to create the base network model
+3. Use PandaPower functions for power flow analysis:
+   ```python
+   pp.runpp(net)
+   ```
+
+### Extending the Framework
+The modular design allows for easy expansion:
+- Add new feeder configurations by extending the bus creation patterns
+- Implement additional load types and profiles
+- Integrate new components (storage, DER, smart devices)
+- Customize cable parameters for specific applications
+- Develop specialized analysis functions
+
+## Requirements
+- Python 3.7+
+- PandaPower
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+
+## Installation
+```bash
+pip install pandapower pandas numpy matplotlib scipy
+```
+
+## Citation
+If you use this model in your research, please cite:
+- S. Panagi et al., "Optimal Operation of Electric Vehicles to Enhance the Flexibility Provision in Active Distribution Grids" 2025
+- S. Panagi et al., "Impact of Uncontrolled Electric Vehicle Charging on Unbalanced Suburban Low-Voltage Networks"
+
+## Future Development
+This framework is designed to evolve and expand. Planned enhancements include:
+- Additional network topologies and configurations
+- Advanced load modeling capabilities
+
+## Contributing
+Contributions are welcome! Areas for contribution include:
+- New network configurations and topologies
+- Advanced load and component models
+- Analysis and visualization tools
+- Documentation and examples
+- Testing and validation procedures
+
+## License
+This project is provided for research and educational purposes. All location-specific information has been anonymized.
+
+## Contact
+For questions, collaboration opportunities, or suggestions for future development, please refer to the research publications listed above or open an issue in this repository.
