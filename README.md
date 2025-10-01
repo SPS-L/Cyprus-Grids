@@ -41,9 +41,11 @@ pip install pandapower pandas numpy matplotlib scipy
 ```
 
 ## Citation
-If you use this model in your research, please cite:
-- S. Panagi et al., "Optimal Operation of Electric Vehicles to Enhance the Flexibility Provision in Active Distribution Grids" 2025
-- S. Panagi et al., "Impact of Uncontrolled Electric Vehicle Charging on Unbalanced Suburban Low-Voltage Networks"
+If you use these models in your research, please cite:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17232114.svg)](https://doi.org/10.5281/zenodo.17232114)
+
+S. Panagi, "Cyprus Distribution Network Models Dataset," Zenodo, 2025. [Online]. Available: https://doi.org/10.5281/zenodo.17232114
 
 ## Future Development
 This framework is designed to evolve and expand. Planned enhancements include:
@@ -62,4 +64,4 @@ Contributions are welcome! Areas for contribution include:
 This project is provided for research and educational purposes. All location-specific information has been anonymized.
 
 ## Contact
-For questions, collaboration opportunities, or suggestions for future development, please refer to the research publications listed above or open an issue in this repository.
+For questions, collaboration opportunities, or suggestions for future development, please refer to the author directly or open an issue in this repository.
