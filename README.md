@@ -1,28 +1,23 @@
-# Distribution Network Modeling Framework
+# Distribution Network Modeling Framework and Dataset
 
 ## Overview
 This repository contains a comprehensive framework for modeling and analyzing distribution networks. The framework provides tools and templates for creating realistic low voltage (LV) and medium voltage (MV) distribution system models suitable for various research applications.
 
-## Features
-- **Modular Network Architecture**: Flexible framework for building distribution networks
+## Features and Scope
+- **Modular Network Architecture**: Multiple disitribution network models
 - **Advanced Cable Modeling**: Multiple cable types with detailed electrical parameters
 - **Extensible Framework**: Easy to expand and modify for specific research needs
 
 ## Current Implementation
 The current model includes:
 - **Base Network**: MV/LV transformer with multiple feeders
-- **Feeder Types**: Various configurations demonstrating different network topologies
+<!-- - **Feeder Types**: Various configurations demonstrating different network topologies -->
 - **Load Profiles**: Residential load modeling with asymmetric three-phase representation
 - **Cable Systems**: Standard LV distribution cable specifications
 
 ## Usage
-### Basic Usage
-1. Open the `Network.ipynb` notebook
-2. Run all cells to create the base network model
-3. Use PandaPower functions for power flow analysis:
-   ```python
-   pp.runpp(net)
-   ```
+
+For the usage please follow the Readme file within each model folder.
 
 ### Extending the Framework
 The modular design allows for easy expansion:
